@@ -5,6 +5,7 @@
 | 415 | [Add Strings](0415_add_strings.py) | Two pointers from the end + carry, `deque.appendleft` | O(max(m, n)) |
 | 314 | [Binary Tree Vertical Order Traversal](0314_vertical_order.py) | BFS with column index, track min/max column | O(n) |
 | 987 | [Vertical Order Traversal of a Binary Tree](0987_vertical_traversal.py) | Follow-up 2: collect (col, row, val), sort, group | O(n log n) |
+| — | [K Winners (weighted, no duplicates)](kwinners.py) | Prefix sums + binary search per draw, reject repeats | O(n) build, O(log n) per draw |
 
 ## Mistakes to remember
 
