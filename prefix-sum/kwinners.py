@@ -1,5 +1,7 @@
 """
 K Winners: weighted random pick without replacement
+Category: Prefix Sum
+Core algorithm: prefix sum + binary search (weighted random pick, like LeetCode 528) + rejection
 
 Each customer has a purchase amount. Pick k distinct winners, where a
 customer's chance of being picked is proportional to their amount.

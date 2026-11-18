@@ -1,5 +1,7 @@
 """
 LeetCode 415. Add Strings
+Category: Two Pointers
+Core algorithm: two pointers from the end + carry (column addition)
 
 Two non-negative integers given as strings (no leading zeros except "0").
 Return their sum as a string.

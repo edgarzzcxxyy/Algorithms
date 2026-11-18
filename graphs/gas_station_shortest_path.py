@@ -1,5 +1,7 @@
 """
 Shortest trip with fuel and gas stations
+Category: Graphs
+Core algorithm: BFS on an expanded state (city, fuel)
 
 Cities are connected by undirected roads. A car starts at `begin` with a full
 tank of capacity c. Each road costs 1 unit of fuel. Arriving at a gas station
@@ -66,6 +68,6 @@ if __name__ == "__main__":
     assert shortestTrip(0, 0, sample, [], 0) == 0     # already there
     assert shortestTrip(0, 6, sample, [4], 0) == -1   # can't leave
 
-    # Unreachable but with a refill loop (1 <-> 2): must still terminate.
-    assert shortestTrip(0, 3, [[0, 1], [1, 2], [2, 3]], [1], 1) == -1
+    # Unreachable, but 1 -> 2 -> 1 refills forever (c = 2): must still terminate.
+    assert shortestTrip(0, 4, [[0, 1], [1, 2], [2, 3], [3, 4]], [1], 2) == -1
     print("ok")

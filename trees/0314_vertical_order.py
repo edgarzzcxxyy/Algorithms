@@ -1,5 +1,7 @@
 """
 LeetCode 314. Binary Tree Vertical Order Traversal
+Category: Trees
+Core algorithm: BFS with column index
 
 Output columns left to right; within a column top to bottom,
 same row and column left to right.

@@ -1,5 +1,7 @@
 """
 LeetCode 322. Coin Change
+Category: Dynamic Programming
+Core algorithm: unbounded knapsack DP (or DFS + memo)
 
 Given coin denominations and an amount, return the fewest coins that make up
 the amount (unlimited supply of each coin), or -1 if it can't be made.

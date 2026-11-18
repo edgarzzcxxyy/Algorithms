@@ -1,5 +1,7 @@
 """
 LeetCode 560. Subarray Sum Equals K
+Category: Prefix Sum
+Core algorithm: prefix sum + hash map
 
 Count the contiguous subarrays whose sum equals k.
 1 <= len(nums) <= 2 * 10^4; nums can contain negative numbers.

@@ -1,6 +1,8 @@
 """
 LeetCode 987. Vertical Order Traversal of a Binary Tree
 (Follow-up 2 of 314: sort nodes in the same row and column by value.)
+Category: Trees
+Core algorithm: DFS collecting (col, row, val) + sort
 
 Approach: record (col, row, val) for every node, sort, group by column.
 Time O(n log n), Space O(n).
