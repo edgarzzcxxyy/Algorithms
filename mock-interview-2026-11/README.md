@@ -45,7 +45,7 @@
 | 变量名字 | Variable names |
 | 需不需要更复杂的example — 好不好 | Ask whether a more complex example is needed |
 | 时间空间复杂度 | Time/space complexity |
-| 准备几道题? | How many problems to prepare? |
+| 准备几道题? | At the start, ask the interviewer roughly how many problems there will be |
 | rush | Don't rush |
 | syntax | Syntax |
 
