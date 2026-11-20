@@ -8,6 +8,7 @@
 | # | Problem | Core algorithm | Time | Space |
 |---|---------|----------------|------|-------|
 | 415 | [Add Strings](0415_add_strings.py) | Two pointers from the end + carry, `deque.appendleft` | O(max(m, n)) | O(max(m, n)) |
+| — | [Two Sum: all unique pairs](two_sum_all_pairs.py) | Sort + two pointers from both ends, skip duplicates | O(n log n) | O(n) |
 
 ## Mistakes to remember
 

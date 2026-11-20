@@ -6,11 +6,14 @@ Algorithm practice and mock interview solutions (Python), grouped by core algori
 
 | Topic | Core idea | Problems |
 |-------|-----------|----------|
-| [Two Pointers](two-pointers/) | Two indices instead of nested loops; walk from the end for digit arithmetic | 415 |
+| [Two Pointers](two-pointers/) | Two indices instead of nested loops; walk from the end for digit arithmetic | 415, Two Sum (all pairs) |
 | [Prefix Sum](prefix-sum/) | Range sum = prefix difference; + hash map for target sums, + binary search for weighted pick | 560, K Winners |
 | [Trees](trees/) | BFS / DFS carrying extra info (column, row) | 314, 987 |
 | [Graphs](graphs/) | BFS for shortest path; expand the state when it depends on more than the node | Shortest Trip with Fuel |
 | [Dynamic Programming](dynamic-programming/) | Define `dp[x]`, write the transition, fill bottom-up or memoize | 322 |
+
+## OOD
+- [OOD](ood/): object-oriented design problems, kept separate because each combines several techniques (classes, hash maps, scans, rule methods). Files start with `Category: OOD` and `Core design:`. Locker, Parking Lot, Pizza Pricing
 
 ## Other
 - [Mock interviews](mock-interviews/): session logs with problem lists, interviewer notes, REACTO
